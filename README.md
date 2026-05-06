@@ -13,7 +13,7 @@ cd UQ-course-CS9
 ```
 Create the conda environment:
 ```bash
-conda conda create -n cs9 python=3.8
+conda create -n cs9 python=3.8
 conda activate cs9
 ```
 Install requirements:
