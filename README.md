@@ -11,9 +11,16 @@ Clone repository:
 git clone https://github.com/ETH-IBK-SMECH/UQ-course-CS9.git
 cd UQ-course-CS9
 ```
+
+Make sure a C++ compiler is installed (PyMC uses it to compile sampling code).
+On Ubuntu/Debian:
+```bash
+sudo apt update && sudo apt install -y build-essential
+```
+
 Create the conda environment:
 ```bash
-conda create -n cs9 python=3.8
+conda create -n cs9 python=3.8 mkl mkl-service -c conda-forge
 conda activate cs9
 ```
 Install requirements:
